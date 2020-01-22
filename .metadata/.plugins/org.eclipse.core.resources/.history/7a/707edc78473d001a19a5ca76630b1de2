@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ScannerCalculator {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("First floating point number: ");
+		double number = sc.nextDouble();
+		
+		System.out.println(number);
+		
+		
+		
+	}
+
+}
