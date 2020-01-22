@@ -1,0 +1,10 @@
+
+public class TaskVar {
+
+	public static void main(String[] args) {
+		int num = 24;
+		int num1 = 125;
+		System.out.println(num+num1);
+	}
+
+}

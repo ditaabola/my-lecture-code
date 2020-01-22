@@ -1,0 +1,15 @@
+public class IfElseAndTernary {
+
+	public static void main(String[] args) {
+//Ternary operator "?"
+		boolean test = false; 
+		if(test){
+			System.out.println("TEST PASS TRUE");
+		}else{
+			System.out.println("TEST PASS FAIL");
+		}
+		
+		test ? true:false;
+	}
+
+}

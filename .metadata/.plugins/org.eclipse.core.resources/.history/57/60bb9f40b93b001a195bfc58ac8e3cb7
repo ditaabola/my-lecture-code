@@ -1,0 +1,21 @@
+
+public class ArraysIfElse {
+
+	public static void main(String[] args) {
+		int[] number = {1, 2, 3, 4, 5, 6};
+		int checkNumber = 1;
+		for(int i = 0; i<number.length; i++){
+			if(number[0] == checkNumber){
+			System.out.println("ONE");
+		}else if(number[1] == checkNumber){
+			System.out.println("TWO");
+		}else if(number[2] == checkNumber){
+			System.out.println("THREE");
+		}else{
+			System.out.println("Does not match");
+			
+			}
+	}
+
+}
+}

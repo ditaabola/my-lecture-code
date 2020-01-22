@@ -1,0 +1,28 @@
+
+public class ArraysIfElse {
+
+	public static void main(String[] args) {
+		int[] number = {1, 2, 3, 4, 5, 6};
+		int findeNumber = 3; //
+		int numberFind = 0; //
+		for(int i = 0; i<number.length; i++){
+			if(number[i] == findeNumber){
+				numberFind = number[i];
+			}
+		}
+			if(numberFind == 1){
+				System.out.println("ONE");
+		}else if(numberFind == 2){
+			System.out.println("TWO");
+		}else if(numberFind == 3){
+			System.out.println("THREE");
+		}else if(numberFind == 4){
+			System.out.println("FOUR");
+		}else if(numberFind == 5){
+			System.out.println("FIVE");
+
+			}else{
+			System.out.println("Does not match");
+			}
+	}
+}

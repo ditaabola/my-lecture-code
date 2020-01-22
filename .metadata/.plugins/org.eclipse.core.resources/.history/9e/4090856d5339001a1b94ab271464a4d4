@@ -1,0 +1,25 @@
+
+public class OperatorsMath {
+	public static void main(String[] args) {
+		double num1 = 0.4;
+		double num2 = 0.2;
+		double result;
+		char operators ='+';
+		char operators1 ='-';
+		char operators2 ='*';
+		char operators3 ='/';
+		result = num1 + num2;
+		//pedinas ir tapec, lai butu smukak - atstarpe
+		System.out.println(num1 + " "+operators+" "+num2+" = "+result);
+		
+		System.out.println(num1 + " "+operators1" "+num2+" = "+result);
+		
+		System.out.println(num1 + " "+operators2" "+num2+" = "+result);
+		
+		System.out.println(num1 + " "+operators3" "+num2+" = "+result);
+
+		System.out.println(num1 + " "+operators4" "+num2+" = "+result);
+
+	}
+
+}
