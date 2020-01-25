@@ -67,8 +67,9 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Warnings (19 items)"/>
 <category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (13 items)"/>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="494" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -228,7 +229,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.20830712" ratioLeft="331" ratioRight="1258" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.20893644" ratioLeft="332" ratioRight="1257" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.74666667" ratioLeft="560" ratioRight="190" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -278,50 +279,44 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfElseTasks.java" tooltip="lecture3/src/IfElseTasks.java">
-<persistable path="/lecture3/src/IfElseTasks.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestJavaProgram.java" tooltip="lecture6/src/lv/dita/learnjavaclass/TestJavaProgram.java">
+<persistable path="/lecture6/src/lv/dita/learnjavaclass/TestJavaProgram.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraysIfElse.java" tooltip="lecture4/src/ArraysIfElse.java">
-<persistable path="/lecture4/src/ArraysIfElse.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Box.java" tooltip="lecture6/src/lv/dita/learnjavaclass/Box.java">
+<persistable path="/lecture6/src/lv/dita/learnjavaclass/Box.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfElseIfTasks.java" tooltip="lecture3/src/IfElseIfTasks.java">
+<persistable path="/lecture3/src/IfElseIfTasks.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LearnMethodsWithParams.java" tooltip="lecture6/src/lv/dita/LearnMethodsWithParams.java">
+<persistable path="/lecture6/src/lv/dita/LearnMethodsWithParams.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LearnMethodsWithType.java" tooltip="lecture6/src/lv/dita/LearnMethodsWithType.java">
+<persistable path="/lecture6/src/lv/dita/LearnMethodsWithType.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LearnMethods.java" tooltip="lecture6/src/lv/dita/LearnMethods.java">
+<persistable path="/lecture6/src/lv/dita/LearnMethods.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScannerCalculator.java" tooltip="lecture5/src/ScannerCalculator.java">
+<persistable path="/lecture5/src/ScannerCalculator.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScannerInput.java" tooltip="lecture5/src/ScannerInput.java">
+<persistable path="/lecture5/src/ScannerInput.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="tasksClass.java" tooltip="lecture4/src/tasksClass.java">
+<persistable path="/lecture4/src/tasksClass.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraysAndLoop.java" tooltip="lecture4/src/ArraysAndLoop.java">
 <persistable path="/lecture4/src/ArraysAndLoop.java"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraysIfElse.java" tooltip="lecture4/src/ArraysIfElse.java">
+<persistable path="/lecture4/src/ArraysIfElse.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfElseTasks.java" tooltip="lecture3/src/IfElseTasks.java">
+<persistable path="/lecture3/src/IfElseTasks.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="testForEach.java" tooltip="testjavaversion/src/testForEach.java">
 <persistable path="/testjavaversion/src/testForEach.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraysSumForLoop.java" tooltip="lecture4/src/ArraysSumForLoop.java">
-<persistable path="/lecture4/src/ArraysSumForLoop.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ForEach.java" tooltip="lecture4/src/ForEach.java">
-<persistable path="/lecture4/src/ForEach.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraysInitialization.java" tooltip="lecture4/src/ArraysInitialization.java">
-<persistable path="/lecture4/src/ArraysInitialization.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraysPrimitiveDataType.java" tooltip="lecture3/src/ArraysPrimitiveDataType.java">
-<persistable path="/lecture3/src/ArraysPrimitiveDataType.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraysRepeat.java" tooltip="lecture4/src/ArraysRepeat.java">
-<persistable path="/lecture4/src/ArraysRepeat.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ForLoops.java" tooltip="lecture3/src/ForLoops.java">
-<persistable path="/lecture3/src/ForLoops.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ForLoopAndIfElseBlock.java" tooltip="lecture3/src/ForLoopAndIfElseBlock.java">
-<persistable path="/lecture3/src/ForLoopAndIfElseBlock.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WhileLoop.java" tooltip="lecture3/src/WhileLoop.java">
-<persistable path="/lecture3/src/WhileLoop.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DoWhileLoop.java" tooltip="lecture3/src/DoWhileLoop.java">
-<persistable path="/lecture3/src/DoWhileLoop.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestIfElseAndBlocks.java" tooltip="lecture3/src/TestIfElseAndBlocks.java">
-<persistable path="/lecture3/src/TestIfElseAndBlocks.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IfElseAndTernary.java" tooltip="lecture3/src/IfElseAndTernary.java">
-<persistable path="/lecture3/src/IfElseAndTernary.java"/>
 </file>
 </mruList>
 </workbench>

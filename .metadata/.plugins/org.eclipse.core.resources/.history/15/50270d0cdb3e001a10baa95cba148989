@@ -1,0 +1,8 @@
+package lv.dita.learnjavaclass;
+
+public class Box {
+	// klasee veido instances mainiigos, viniem neliek veertibas;
+	double width;
+	double height = 20.23;
+	double depth;
+}
