@@ -1,0 +1,12 @@
+package lv.dita.learnstring;
+
+public class TestStringClass {
+
+		public static void main(String[] args) {
+	
+			String str;
+			str = "Hello";
+			System.out.println(str);
+	}
+
+}

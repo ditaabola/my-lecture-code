@@ -1,0 +1,22 @@
+package lv.dita.repeat;
+
+import java.util.Scanner;
+
+public class TestJava {
+
+	public static void main(String[] args) {
+//		Scanner input = new Scanner(System.in);
+//		System.out.println("Input value: ");
+		
+		boolean testWhile = true;
+		while(testWhile){
+			System.out.println("It works");
+			break;
+//		System.out.println("Your input value is: " + inputvalue);
+//			
+		}
+		}
+		
+	
+
+}

@@ -1,0 +1,10 @@
+package lv.dita;
+
+import lv.dita.geometricfigures.Circle;
+
+public class TestFigureClass {
+
+	Circle figure = new Circle(); //veertiibas jau ir defineetas konstanti, nav jaadefinee atseviski
+	System.out.println(figure.getColour() +" and " + figure.getRadius());
+
+}

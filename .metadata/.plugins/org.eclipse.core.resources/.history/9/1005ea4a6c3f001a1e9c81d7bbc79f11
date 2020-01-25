@@ -1,0 +1,21 @@
+package lv.dita.learnstring;
+
+public class TestStringClass {
+
+		public static void main(String[] args) {
+	
+			String str = "Index";
+			String strClass = new String("Index param");
+			
+			
+			System.out.println(str);
+			System.out.println("String like obj " + strClass);
+			
+			int stringLength = str.length();
+			System.out.println(stringLength);
+			System.out.println(str.charAt(0));
+			
+		}
+
+}
+ 

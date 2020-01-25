@@ -1,0 +1,20 @@
+package lv.dita.repeat;
+
+import java.util.Scanner;
+
+public class TestJava {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Input value: ");
+		int inputvalue;
+		inputvalue = input.nextInt();
+		if(input.hasNextInt()){
+			System.out.println("Your input is: " + inputvalue);
+		}
+		
+		
+
+		
+	
+
