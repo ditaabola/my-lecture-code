@@ -36,6 +36,15 @@ public class TestScanner {
 			System.out.println("End");
 			taxableIncome =sc.nextInt();
 			
+					Scanner sc = new Scanner(System.in);
+		int number = 0;
+		System.out.println("Please enter an integer: ");
+		while(!sc.hasNextInt()) {
+			System.out.println("You did not enter an integer");
+			number = sc.nextInt();
+					System.out.println("You entered: " + number);
+
+			
 		}
 			
 		}
