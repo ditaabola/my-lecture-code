@@ -13,6 +13,17 @@ public class TestJava {
 	
 		if(!(input.hasNextInt())){
 			System.out.println("Input integer ");
+			
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter an integer: ");
+		if (!sc.hasNextInt()) {
+			System.out.println("You did not enter an integer");
+			
+		} else {
+			int number = 0;
+			number = sc.nextInt();
+			System.out.println("You entered: " + number);
+	
 				
 			}
 		}
