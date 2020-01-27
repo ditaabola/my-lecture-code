@@ -1,0 +1,29 @@
+package lv.dita.repeat;
+
+import java.util.Scanner;
+
+public class TestJava {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int inputvalue;
+		inputvalue = sc.nextInt();
+		System.out.println("Your input value is " + inputvalue);
+	
+		
+		System.out.println("Please enter an integer: ");
+		if (!sc.hasNextInt()) {
+			System.out.println("You did not enter an integer");
+
+		} else {
+			int number = 0;
+			number = sc.nextInt();
+			System.out.println("You entered: " + number);
+		
+			}
+		}
+	}			
+
+		
+	
+

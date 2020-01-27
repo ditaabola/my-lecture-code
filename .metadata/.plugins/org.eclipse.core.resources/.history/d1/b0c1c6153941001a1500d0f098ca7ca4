@@ -1,0 +1,10 @@
+package lv.dita;
+import lv.dita.rectangle
+
+public class testFigure {
+	
+	public static void main(String[] args) {
+		
+	Rectangle rectangle = new Rectangle();
+	}
+}
