@@ -1,0 +1,15 @@
+package lv.dita.users;
+
+public class Student extends Person{
+	int numCourse;
+	String[] courses;
+	int[] grades;
+	
+public Student (String name, String address){
+	super(name, address);
+
+	
+}
+	
+
+}

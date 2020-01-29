@@ -1,0 +1,5 @@
+package lv.dita.users;
+
+public class Student {
+
+}

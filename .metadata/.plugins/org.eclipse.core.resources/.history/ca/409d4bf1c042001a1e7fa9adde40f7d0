@@ -1,0 +1,5 @@
+package lv.dita.graph;
+
+public class Point4D {
+
+}

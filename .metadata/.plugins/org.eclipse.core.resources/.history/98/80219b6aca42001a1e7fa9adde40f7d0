@@ -1,0 +1,10 @@
+package lv.dita.users;
+
+public class Teacher extends Person{
+public Teacher (String name, String address) {
+	super(name, address);
+	
+	}
+
+
+}
