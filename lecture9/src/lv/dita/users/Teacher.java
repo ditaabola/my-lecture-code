@@ -3,32 +3,55 @@ package lv.dita.users;
 import java.util.Arrays;
 
 public class Teacher extends Person {
-	int numCourse;
-	String course[];
+	int numCourses;
+	String[] courses;
 	private static final int MAX_COURSES = 4;
 
 	public Teacher(String name, String address) {
 		super(name, address);
-		this.numCourse = 0;
-		this.course = new String[MAX_COURSES];
+		this.numCourses = 0;
+		this.courses = new String[MAX_COURSES];
 	}
 
-	public void addCourse(String course) {
-		this.numCourse = 0;
-		++numCourse;
-		//System.out.println(Arrays.toString(this.course));
-	}
-
-	public boolean addCourses(String course) {
-		return true;
-		}
-	public boolean removeCourses(String course) {
-		return true;
-	}
-
-	public String toString(){
+		public String toString() {
 		return "Teacher: " + super.toString();
 	}
-	
 
+		public void addCourse(String course) {
+			courses[numCourses] = course;
+			++numCourses;
+//			System.out.println(Arrays.toString(course));
+		}
+		
+		public boolean addCoursesCheck(String course) {
+		for (int i = 0; i < numCourses; i++) {
+			if (courses[i].equals(course))
+				return false;
+		}
+		courses[numCourses] = course;
+		++numCourses;
+		return true;
+	}
+
+		public boolean removeCourses(String course){
+			boolean found = false;
+			int courseIndex = -1;
+			for(int i = 0; i<numCourses; i++){
+				if(courses[i].equals(course)){
+					courseIndex = i;
+					found = true;
+					break;
+				}
+			}
+		if(found){
+			for(int i=courseIndex; i<numCourses-1; i++){
+				courses[i] = courses[i+1];
+				}
+			numCourses--;
+			return true;
+		}else{
+			return false;
+		}
+		}
+		
 }

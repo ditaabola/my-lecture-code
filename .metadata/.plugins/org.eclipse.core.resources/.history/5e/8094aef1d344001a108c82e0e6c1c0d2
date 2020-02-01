@@ -1,0 +1,9 @@
+package lv.dita;
+
+public class TestEncap {
+
+	public static void main(String[] args) {
+	
+	}
+
+}

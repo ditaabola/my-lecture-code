@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class ScannerAndArrays {
 	public static void main(String[] args) {
-<<<<<<< HEAD
 
 //		Scanner sc = new Scanner(System.in);
 //		int[] arr = new int[3];
@@ -27,15 +26,13 @@ public class ScannerAndArrays {
 		System.out.println("Enter the elements of the array: ");
 		for (int i = 0; i < n; i++) {
 			a[i] = sc2.nextInt();
-			System.out.print("You listed these numbers: " Arrays.toString);
 			
 		}
-		}
-=======
+	}
 		
 	Scanner sc = new Scanner(System.in);
-	int[] arr = new int[3];
-	System.out.println("Enter an integer: ");
+	int[] arr = new arr []();
+	
 	arr[0]  = sc.nextInt();
 	System.out.println("Enter another integer: ");
 	arr[1]  = sc.nextInt();
@@ -51,9 +48,7 @@ public class ScannerAndArrays {
 	for(int i = 0; i<n; i++) {
 		a[i] = sc2.nextInt();
 		}
-	System.out.println("You listed these numbers: " + Arrays.toString(a));
-		
-	}
->>>>>>> 85d8e79290f4b1d9448b54d7320a5f25ecbe2dab
-
 }
+}
+	
+

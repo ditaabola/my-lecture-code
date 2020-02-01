@@ -12,5 +12,14 @@
 <fullyQualifiedTypeName name="majas.darbs.Employee"/>
 <fullyQualifiedTypeName name="lv.dita.graph.Point4D"/>
 <fullyQualifiedTypeName name="lv.dita.users.Teacher"/>
+<fullyQualifiedTypeName name="lv.dita.users.Student"/>
+<fullyQualifiedTypeName name="lv.dita.encapsulation.Student"/>
+<fullyQualifiedTypeName name="lv.dita.inheritance.Golf"/>
+<fullyQualifiedTypeName name="lv.dita.polymorphism.Animal"/>
+<fullyQualifiedTypeName name="lv.dita.polymorphism.Dog"/>
+<fullyQualifiedTypeName name="lv.dita.polymorphism.Cat"/>
+<fullyQualifiedTypeName name="lv.dita.interf.Shape"/>
+<fullyQualifiedTypeName name="lv.dita.interf.Rectangle"/>
+<fullyQualifiedTypeName name="lv.dita.interf.Triangle"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

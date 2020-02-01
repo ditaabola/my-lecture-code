@@ -19,6 +19,7 @@ public class VerifyIfInteger {
 				System.out.println("You entered: " + number);
 		sc.next();
 		}
+		}
 	}
 }
 

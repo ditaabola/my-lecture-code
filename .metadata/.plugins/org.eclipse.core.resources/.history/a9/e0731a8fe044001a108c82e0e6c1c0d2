@@ -1,0 +1,11 @@
+package lv.dita;
+
+import lv.dita.interf.Shape;
+
+public class TestInterface {
+
+	public static void main(String[] args) {
+
+	Shape Rectangle = new Rectangle(3, 4);
+	}
+}

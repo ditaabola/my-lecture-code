@@ -1,0 +1,13 @@
+package lv.dita;
+
+public class TestArraysandLists {
+
+		public static void main(String[] args) {
+	
+			String[] arr = new String [10];
+			String[] arrWidth = {"A","B", "C", "D", "E", "F", "G"};
+			for(int i=0; i<arr.length; i++);
+						System.out.println(arrWidth[i]);
+		}
+
+}
