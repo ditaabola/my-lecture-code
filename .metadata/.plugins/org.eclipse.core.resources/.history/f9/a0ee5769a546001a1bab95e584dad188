@@ -1,0 +1,16 @@
+package lv.dita;
+
+import java.util.Scanner;
+
+public class TestScannerInputArray {
+
+	public static void main(String[] args) {
+
+String [] strArrStrings;
+Scanner sc = new Scanner(System.in);
+strArrStrings = new Array[int n];
+
+	
+	}
+
+}

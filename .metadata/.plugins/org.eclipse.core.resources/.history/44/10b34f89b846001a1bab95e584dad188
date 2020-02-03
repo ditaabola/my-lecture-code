@@ -1,0 +1,6 @@
+package lv.dita.modules;
+
+public class League {
+String name;
+ArrayList <> numberOfTeams;
+}

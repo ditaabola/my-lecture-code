@@ -1,0 +1,13 @@
+package lv.dita;
+
+public class TestArrayWithObjects {
+
+	public static void main(String[] args) {
+		Integer intObj = 40;
+		Double doubleObj = 40.5;
+		System.out.println(intObj.toString());
+		ArrayList<Integer> intArrays = new ArrayList<>();
+	
+	}
+
+}

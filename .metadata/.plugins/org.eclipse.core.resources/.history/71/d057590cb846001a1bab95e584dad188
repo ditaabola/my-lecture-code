@@ -1,0 +1,9 @@
+package lv.dita.teamandleague;
+
+public class League {
+
+	String name;
+
+}
+
+

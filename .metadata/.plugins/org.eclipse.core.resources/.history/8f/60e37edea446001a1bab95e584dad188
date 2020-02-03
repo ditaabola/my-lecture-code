@@ -1,0 +1,9 @@
+package lv.dita;
+
+public class TestScannerInputArray {
+
+	public static void main(String[] args) {
+
+	}
+
+}

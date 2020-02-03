@@ -1,0 +1,16 @@
+package lv.dita;
+
+import java.util.ArrayList;
+
+public class TestArrayList {
+
+	public static void main(String[] args) {
+		
+		String[] arr = new String[2];
+		System.out.println(arr.length); // vienkarsais masivs, garuma metode
+
+		ArrayList<String> array = new ArrayList<>();
+		System.out.println(array.size()); // dinamiska masiva liste, garuma metode
+	}
+
+}

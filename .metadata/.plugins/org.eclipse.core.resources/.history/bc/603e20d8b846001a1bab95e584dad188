@@ -1,0 +1,7 @@
+package lv.dita.modules;
+
+public class League{
+String nameLeague;
+ArrayList<Team> nameOfTeam = new ArrayList<>();
+
+}

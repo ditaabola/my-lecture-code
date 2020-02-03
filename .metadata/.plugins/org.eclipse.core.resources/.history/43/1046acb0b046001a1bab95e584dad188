@@ -1,0 +1,23 @@
+package lv.dita;
+
+import java.util.ArrayList;
+
+public class TaskTestArrayMethods {
+
+	public static void main(String[] args) {
+		ArrayList<String> carName = new ArrayList<>();
+		carName.add("Mazda");
+		carName.add("Volvo");
+		carName.add("BMW");
+		carName.add("Golf");
+		carName.add("Hyundai");
+		carName.add("Skoda");
+		
+		for(String carNames : carName);
+		System.out.println(carName);
+	System.out.println("------------------");
+		carName.remove("Golf");
+		for(String carNames : carName);
+		System.out.println(carName);	}
+
+}

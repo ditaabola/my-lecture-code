@@ -1,0 +1,29 @@
+package lv.dita;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class TestScannerInputArray {
+
+	public static void main(String[] args) {
+
+String [] strArrStrings = names[0];
+int [] numberOfNames;
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter number of names: ");
+
+numberOfNames = new int[sc.nextInt()];
+
+
+int i = 0;
+while(i>numberOfNames.length){
+	i++;}
+	System.out.println("Enter a name: "+i);
+	
+
+if(numberOfNames.length == 0);
+System.out.println("EXIT");
+System.out.println("You entered: " + Arrays.toString(strArrStrings));
+	}
+
+}

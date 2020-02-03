@@ -1,0 +1,12 @@
+package lv.dita;
+
+public class TestArrayWithObjects {
+
+	public static void main(String[] args) {
+		Integer intObj = 40;
+		System.out.println(intObj);
+//		ArrayList<int> carName = new ArrayList<>();
+	
+	}
+
+}

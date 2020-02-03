@@ -1,0 +1,10 @@
+package lv.dita;
+
+public class TestArrayWithObjects {
+
+	public static void main(String[] args) {
+
+		ArrayList<Integer> carName = new ArrayList<>();
+	}
+
+}
