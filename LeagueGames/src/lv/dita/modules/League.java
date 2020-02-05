@@ -19,10 +19,22 @@ public class League {
 		this.nameLeague = nameLeague;
 	}
 
+	public void setNameOfTeams(ArrayList<Team> nameOfTeam){
+		this.nameOfTeam = nameOfTeam;
+		
+	}
 	public ArrayList<Team> getNameOfTeam() {
 		return nameOfTeam;
 	}
 
+	public void recordWinAndLoss(Team winner, Team loser){
+		int i = 0;
+		winner.setWins(1);
+		++i;
+		
+		
+	}
+	
 	@Override
 	public String toString() {
 		return "League [nameLeague=" + nameLeague + ", nameOfTeam="

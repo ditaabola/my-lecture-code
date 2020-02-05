@@ -1,0 +1,12 @@
+package lv.dita;
+
+import java.time.LocalDateTime;
+
+public class TestDateInJava {
+
+	public static void main(String[] args) {
+	LocalDateTime myDateObj = LocalDateTime.now();
+	
+	}
+
+}

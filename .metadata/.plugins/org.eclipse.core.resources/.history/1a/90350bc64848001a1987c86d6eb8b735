@@ -1,0 +1,12 @@
+package lv.dita.test;
+
+import lv.dita.modules.League;
+
+public class TestTeamAndLeague {
+
+	public static void main(String[] args) {
+	League khl = new League("KHL");
+	khl.setNameOfTeams(nameOfTeam);
+	}
+
+}

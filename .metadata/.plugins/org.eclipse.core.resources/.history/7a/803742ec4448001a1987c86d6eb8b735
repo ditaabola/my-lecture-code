@@ -1,0 +1,9 @@
+package lv.dita;
+
+public class TestThrow {
+
+	public static void main(String[] args) {
+
+	}
+
+}

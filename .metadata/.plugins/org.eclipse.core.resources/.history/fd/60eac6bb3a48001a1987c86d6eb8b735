@@ -1,0 +1,10 @@
+package lv.dita;
+
+public class TestRegex {
+
+		public static void main(String[] args) {
+			String inputStr = "abc038u030_9";
+			String regexStrExp = "[0-9]";
+	}
+
+}
