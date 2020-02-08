@@ -1,0 +1,13 @@
+package lv.dita.inputoutput;
+
+import java.io.InputStream;
+
+public class TestReadFile {
+
+	public static void main(String[] args) {
+	InputStream inputStream;
+	OutputStream outputStream;
+	
+	}
+
+}

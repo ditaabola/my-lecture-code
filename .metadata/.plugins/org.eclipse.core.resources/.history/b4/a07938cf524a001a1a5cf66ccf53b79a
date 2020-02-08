@@ -1,0 +1,15 @@
+package lv.dita.inputoutput;
+
+import java.io.File;
+
+public class TestFiles {
+
+	public static void main(String[] args) {
+
+		File myFile = new File("Data.txt");
+		if (myFile.exists()) {
+			System.out.println(myFile.getName() + " exists");
+		}
+	}
+
+}

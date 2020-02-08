@@ -1,0 +1,8 @@
+package lv.dita.inputoutput;
+
+public class TestFiles {
+
+	public static void main(String[] args) {
+	}
+
+}

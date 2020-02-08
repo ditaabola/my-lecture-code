@@ -1,0 +1,9 @@
+package lv.dita.inputoutput;
+
+public class TestScannerFileRead {
+
+	public static void main(String[] args) {
+		File file = new File();
+	}
+
+}

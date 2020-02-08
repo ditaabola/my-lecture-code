@@ -1,0 +1,29 @@
+package lv.dita.inputoutput;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class TestChangeOneString {
+
+	public static void main(String[] args) throws Exception{
+	String string = "Hello user";
+	String lastString = string.replace("userName", " \n");
+			
+	File fileObj = new File("users.txt");
+	FileWriter fw = new FileWriter(fileObj, true);
+	System.out.println(lastString+" Dita");
+	fw.write(lastString);
+	fw.close();
+	
+	Scanner sc = new Scanner(fileObj);
+	String stringFromTextFile = " ";
+	while(sc.hasNextLine()){
+		System.out.println(sc.nextLine());
+		sc.close();
+			
+	}
+	}
+}

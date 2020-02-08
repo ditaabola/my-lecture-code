@@ -1,0 +1,11 @@
+package lv.dita.inputoutput;
+
+import java.io.File;
+
+public class TestCreateAndWriteFile {
+
+	public static void main(String[] args) {
+		File fileObj = new File("newfile.txt");
+	}
+
+}

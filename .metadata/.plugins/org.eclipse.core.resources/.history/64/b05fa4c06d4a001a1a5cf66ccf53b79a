@@ -1,0 +1,22 @@
+package lv.dita.inputoutput;
+
+import java.io.File;
+import java.io.FileWriter;
+
+public class TestCreateAndWriteFile {
+
+	public static void main(String[] args) throws Exception {
+		File fileObj = new File("newfile.txt");
+		FileWriter fw = new FileWriter(fileObj, true);
+		fw.write("Hello my friend");
+		
+//		if(fileObj.createNewFile()){
+//			System.out.println("File " + fileObj.getName()+ " created");
+//		}else{
+			System.out.println("File exists.");
+			fw.write("\nHello again");
+			fw.close();
+			
+	}
+
+}

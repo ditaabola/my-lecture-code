@@ -1,8 +1,0 @@
-package lv.dita;
-
-public class TestInterface {
-
-	public static void main(String[] args){
-		
-	}
-}

@@ -42,11 +42,12 @@ public class Homework {
 		for (int i = 0; i < list1.size(); i++) {
 			for (int j = 0; j < list2.size(); j++) {
 				if (list1.get(i) == list2.get(j)) {
-					list3.add((Integer) list1.get(i)); //casting, ko piedaavaaja Eclipse, bez taa nestraadaaja
+					list3.add((Integer) list1.get(i)); // casting, ko piedaavaaja Eclipse, bez taa nestraadaaja
 				}
 			}
 		}
 		System.out.println("Common elements: " + list3);
 
 	}
+	
 }
