@@ -1,0 +1,25 @@
+package lv.dita.test;
+
+import java.util.ArrayList;
+
+import lv.dita.modules.League;
+import lv.dita.modules.Team;
+
+public class TestTeamAndLeague {
+
+	public static void main(String[] args) {
+
+		ArrayList<Team> arr = new ArrayList<>();
+		
+		League khl = new League("KHL");
+		Team ska = new Team("SKA");
+		Team cska = new Team("CSKA");
+		arr.add(ska);
+		arr.add(cska);
+		khl.setNameOfTeams(arr);
+		System.out.println(khl.toString());
+		System.out.println();		
+		
+		khl.recordWinAndLoss("KHL", "SKA");
+		}
+}

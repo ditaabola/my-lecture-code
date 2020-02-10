@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -12,14 +12,14 @@
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="144" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="316" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -28,10 +28,26 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Team.java" partName="Team.java" path="/home/student/workspace/LeagueGames/src/lv/dita/modules/Team.java" title="Team.java" tooltip="LeagueGames/src/lv/dita/modules/Team.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LeagueGames/src/lv/dita/modules/Team.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="53" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="League.java" partName="League.java" path="/home/student/workspace/LeagueGames/src/lv/dita/modules/League.java" title="League.java" tooltip="LeagueGames/src/lv/dita/modules/League.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LeagueGames/src/lv/dita/modules/League.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="769" selectionTopPixel="337"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestTeamAndLeague.java" partName="TestTeamAndLeague.java" path="/home/student/workspace/LeagueGames/src/lv/dita/test/TestTeamAndLeague.java" title="TestTeamAndLeague.java" tooltip="LeagueGames/src/lv/dita/test/TestTeamAndLeague.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LeagueGames/src/lv/dita/test/TestTeamAndLeague.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="857" selectionTopPixel="244"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
@@ -108,14 +124,14 @@
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
-<viewState/>
-</view>
 <view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
 <viewState/>
 </view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="0" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -193,6 +209,7 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <show_view_action id="org.eclipse.jdt.ui.SourceView"/>
@@ -230,6 +247,7 @@
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <fastViewBars/>
@@ -261,6 +279,7 @@
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
@@ -269,6 +288,7 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -313,9 +333,9 @@
 <show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
@@ -392,7 +412,165 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LeagueGames/src/lv/dita/modules/Team.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LeagueGames/src/lv/dita/modules/League.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LeagueGames/src/lv/dita/test/TestTeamAndLeague.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lecture3/src/ForLoops.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lecture3/src/ForLoopAndIfElseBlock.java"/>
+</editors>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="855" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="898" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="1013" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="1077" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="828" y="0"/>
+</item>
+<item historyLabel="Team.java" index="0">
+<position info="not_deleted" x="239" y="0"/>
+</item>
+<item historyLabel="Team.java" index="0">
+<position info="not_deleted" x="810" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="828" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="1053" y="0"/>
+</item>
+<item historyLabel="Team.java" index="0">
+<position info="not_deleted" x="53" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="1112" y="0"/>
+</item>
+<item historyLabel="ForLoops.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ForLoopAndIfElseBlock.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="1112" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position/>
+</item>
+<item historyLabel="League.java" index="1">
+<position/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="1038" y="5"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position/>
+</item>
+<item historyLabel="Team.java" index="0">
+<position info="not_deleted" x="53" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="1143" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="1081" y="0"/>
+</item>
+<item historyLabel="ForLoops.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="1081" y="0"/>
+</item>
+<item historyLabel="ForLoopAndIfElseBlock.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="1148" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="1077" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="1148" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="1066" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="1011" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="1008" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="1010" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="729" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="1010" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="729" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="873" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="946" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="914" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="1038" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="751" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="1038" y="0"/>
+</item>
+<item historyLabel="TestTeamAndLeague.java" index="2">
+<position info="not_deleted" x="857" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position info="not_deleted" x="1038" y="0"/>
+</item>
+<item historyLabel="League.java" index="1">
+<position/>
+</item>
+<item active="true" historyLabel="League.java" index="1">
+<position info="not_deleted" x="729" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -416,6 +594,21 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ForLoopAndIfElseBlock.java" tooltip="lecture3/src/ForLoopAndIfElseBlock.java">
+<persistable path="/lecture3/src/ForLoopAndIfElseBlock.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ForLoops.java" tooltip="lecture3/src/ForLoops.java">
+<persistable path="/lecture3/src/ForLoops.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestTeamAndLeague.java" tooltip="LeagueGames/src/lv/dita/test/TestTeamAndLeague.java">
+<persistable path="/LeagueGames/src/lv/dita/test/TestTeamAndLeague.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="League.java" tooltip="LeagueGames/src/lv/dita/modules/League.java">
+<persistable path="/LeagueGames/src/lv/dita/modules/League.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Team.java" tooltip="LeagueGames/src/lv/dita/modules/Team.java">
+<persistable path="/LeagueGames/src/lv/dita/modules/Team.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestCreateAndWriteFile.java" tooltip="lecture13/src/lv/dita/inputoutput/TestCreateAndWriteFile.java">
 <persistable path="/lecture13/src/lv/dita/inputoutput/TestCreateAndWriteFile.java"/>
 </file>
@@ -445,21 +638,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Homework.java" tooltip="testjavaversion/src/Homework.java">
 <persistable path="/testjavaversion/src/Homework.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestTeamAndLeague.java" tooltip="LeagueGames/src/lv/dita/test/TestTeamAndLeague.java">
-<persistable path="/LeagueGames/src/lv/dita/test/TestTeamAndLeague.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Team.java" tooltip="LeagueGames/src/lv/dita/modules/Team.java">
-<persistable path="/LeagueGames/src/lv/dita/modules/Team.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="League.java" tooltip="LeagueGames/src/lv/dita/modules/League.java">
-<persistable path="/LeagueGames/src/lv/dita/modules/League.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestThrow.java" tooltip="lecture12/src/lv/dita/TestThrow.java">
-<persistable path="/lecture12/src/lv/dita/TestThrow.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestExceptionHandling.java" tooltip="lecture12/src/lv/dita/TestExceptionHandling.java">
-<persistable path="/lecture12/src/lv/dita/TestExceptionHandling.java"/>
 </file>
 </mruList>
 </workbench>

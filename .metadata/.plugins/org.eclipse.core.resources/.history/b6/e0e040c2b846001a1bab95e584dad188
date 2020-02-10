@@ -1,6 +1,0 @@
-package lv.dita.modules;
-
-public class League extends Team{
-String nameLeague;
-
-}

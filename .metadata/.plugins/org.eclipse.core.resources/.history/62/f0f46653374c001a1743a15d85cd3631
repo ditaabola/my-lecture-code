@@ -1,0 +1,48 @@
+package lv.dita.test;
+
+import java.util.ArrayList;
+
+import lv.dita.modules.League;
+import lv.dita.modules.Team;
+
+public class TestTeamAndLeague {
+
+	public static void main(String[] args) {
+
+		ArrayList<Team> arr = new ArrayList<>();
+
+		League khl = new League("KHL");
+		Team ska = new Team("SKA");
+		Team cska = new Team("CSKA");
+		Team dinamo = new Team("DINAMO");
+		Team spartak = new Team("Spartak");
+		Team torpedo = new Team("Torpedo");
+		Team severstal = new Team("Severstal");
+		arr.add(ska);
+		arr.add(cska);
+		arr.add(dinamo);
+		arr.add(spartak);
+		arr.add(torpedo);
+		arr.add(severstal);
+		khl.setNameOfTeams(arr);
+
+		khl.recordWinAndLoss(cska, ska);
+		khl.recordWinAndLoss(ska, cska);
+		khl.recordWinAndLoss(dinamo, cska);
+		khl.recordTies(dinamo, ska);
+		khl.recordTies(torpedo, severstal);
+		khl.recordTies(dinamo,  cska);
+		khl.recordWinAndLoss(torpedo, spartak);
+		khl.recordWinAndLoss(severstal, torpedo);
+		khl.recordWinAndLoss(spartak, ska);
+		System.out.println(khl.teamWithName("DINAMO"));
+		System.out.println("Vityaz");
+	
+		System.out.println(khl.toString());
+
+		System.out.println("\nTotal points for team Dinamo is "
+				+ dinamo.totalPoints());
+		System.out.println("Total plays for Dinamo is " + dinamo.gamesPlayed());
+
+	}
+}

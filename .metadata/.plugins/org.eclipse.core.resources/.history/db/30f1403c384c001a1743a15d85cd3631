@@ -1,0 +1,60 @@
+package lv.dita.modules;
+
+import java.util.ArrayList;
+
+public class League {
+	private String nameLeague;
+	private ArrayList<Team> nameOfTeam;
+
+	public League(String nameOfLeague) {
+		this.nameLeague = nameOfLeague;
+		this.nameOfTeam = new ArrayList<>();
+	}
+
+	public String getNameLeague() {
+		return nameLeague;
+	}
+
+	public void setNameLeague(String nameLeague) {
+		this.nameLeague = nameLeague;
+	}
+
+	public void setNameOfTeams(ArrayList<Team> nameOfTeam) {
+		this.nameOfTeam = nameOfTeam;
+
+	}
+
+	public ArrayList<Team> getNameOfTeam() {
+		return nameOfTeam;
+	}
+
+	public void recordWinAndLoss(String winnerName, String loserName) {
+		Team winner;
+		Team loser;
+		winner.wins++;
+		loser.losses++;
+	}
+
+	public void recordTies(Team one, Team two) {
+		one.ties++;
+		two.ties++;
+	}
+
+	public Team teamWithName(String nameToLookFor) {
+		Team teamCreated = null;
+		int i = 0;
+		for (Team team : this.nameOfTeam) {
+			if (team.name.equals(nameToLookFor)) {
+				teamCreated = team;
+			}
+		}
+		return teamCreated;
+	}
+
+	@Override
+	public String toString() {
+		return "League [nameLeague=" + nameLeague + ", nameOfTeam="
+				+ nameOfTeam + "]";
+	}
+
+}

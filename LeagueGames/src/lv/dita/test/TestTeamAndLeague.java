@@ -9,16 +9,39 @@ public class TestTeamAndLeague {
 
 	public static void main(String[] args) {
 
-		League khl = new League("KHL");
 		ArrayList<Team> arr = new ArrayList<>();
+		
+		League khl = new League("KHL");
 		Team ska = new Team("SKA");
 		Team cska = new Team("CSKA");
+		Team dinamo = new Team("DINAMO");
+		Team spartak = new Team("Spartak");
+		Team torpedo = new Team("Torpedo");
+		Team severstal = new Team("Severstal");
 		arr.add(ska);
 		arr.add(cska);
-
+		arr.add(dinamo);
+		arr.add(spartak);
+		arr.add(torpedo);
+		arr.add(severstal);
 		khl.setNameOfTeams(arr);
-		ska.setWins(1);
-		ska.setWins(1);
+	
+		
+		khl.recordWinAndLoss("CSKA", "SKA");
+		khl.recordWinAndLoss("SKA", "CSKA");
+		khl.recordWinAndLoss("DINAMO", "CSKA");
+		khl.recordTies("DINAMO", "SKA");
+		khl.recordTies("Torpedo", "Severstal");
+		khl.recordTies("DINAMO",  "CSKA");
+		khl.recordWinAndLoss("Torpedo", "Spartak");
+		System.out.println(khl.teamWithName("DINAMO"));
+		System.out.println(khl.teamWithName("Vityaz"));
+	
 		System.out.println(khl.toString());
+
+		System.out.println("\nTotal points for team Dinamo is "
+				+ dinamo.totalPoints());
+		System.out.println("Total plays for Dinamo is " + dinamo.gamesPlayed());
+
 	}
 }

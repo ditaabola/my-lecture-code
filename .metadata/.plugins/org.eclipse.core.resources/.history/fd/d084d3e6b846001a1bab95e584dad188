@@ -1,8 +1,0 @@
-package lv.dita.modules;
-
-public class Team {
-String name;
-int wins;
-int losses;
-int ties;
-}
