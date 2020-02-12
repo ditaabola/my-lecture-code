@@ -1,0 +1,7 @@
+package lv.dita.repeatJavaClassOOP;
+
+public interface InterfaceClass {
+
+	
+	public sendEmail();
+}

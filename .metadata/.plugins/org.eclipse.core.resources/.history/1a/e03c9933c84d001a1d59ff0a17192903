@@ -1,0 +1,21 @@
+package lv.dita.repeatJavaClassOOP;
+
+public class ImplementInterface implements InterfaceClass{
+
+	public static void main(String[] args) {
+		
+	}
+
+	@Override
+	public void sendEmail() {
+		System.out.println("This is my e-mail");
+	}
+
+	@Override
+	public int emailCount() {
+		int i = 0;
+		++i;
+		return 0;
+	}
+	
+}

@@ -1,0 +1,14 @@
+package lv.dita.repeatJavaClassOOP;
+
+public class MyClassMethods {
+	
+	public MyClass myClass; // paskatiities par dazaadiem datu tipiem, ko var izmantot kaa mainiigos
+	public static void myMethod() {
+		System.out.println("Hello everybody");
+	}
+
+	public String myStringMethod() {
+		return "Hello";
+
+	} 
+}

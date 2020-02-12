@@ -1,0 +1,14 @@
+package lv.dita.repeatJavaClassOOP;
+
+public class MyClassMethods {
+	public static void myMethod() {
+		System.out.println("Hello everybody");
+	
+	}
+
+	public String myStringMethod() {
+		
+		return "Hello";
+
+	}
+}

@@ -1,0 +1,8 @@
+package lv.dita.repeatJavaClassOOP;
+
+public enum myEnums {
+	LOW,
+	MEDIUM,
+	HIGH
+
+}

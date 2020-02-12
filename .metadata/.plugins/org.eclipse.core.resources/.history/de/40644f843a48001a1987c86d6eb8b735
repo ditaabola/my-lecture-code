@@ -1,9 +1,0 @@
-package lv.dita;
-
-public class TestRegex {
-
-		public static void main(String[] args) {
-			String inputStr = "abc03030_9";
-	}
-
-}

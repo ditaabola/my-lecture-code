@@ -1,0 +1,11 @@
+package lv.dita.repeatJavaClassOOP;
+
+public class MyClassConstructor {
+	private long modelYear;
+	private String modelName;
+	
+
+public MyClassConstructor(){
+	
+
+}

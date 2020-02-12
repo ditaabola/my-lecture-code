@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;lv.dita.repeatJavaClassOOP.myEnums&apos; to &apos;MyEnums&apos;&#x0A;- Original project: &apos;lecture14&apos;&#x0A;- Original element: &apos;lv.dita.repeatJavaClassOOP.myEnums&apos;&#x0A;- Renamed element: &apos;lv.dita.repeatJavaClassOOP.MyEnums&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;myEnums&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;lv.dita.repeatJavaClassOOP{myEnums.java[myEnums" matchStrategy="1" name="MyEnums" qualified="false" references="true" similarDeclarations="false" stamp="1581533530891" textual="false" version="1.0"/>
+</session>

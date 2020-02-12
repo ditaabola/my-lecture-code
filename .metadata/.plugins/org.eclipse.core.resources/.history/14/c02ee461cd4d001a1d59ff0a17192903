@@ -1,0 +1,5 @@
+package lv.dita.repeatJavaClassOOP;
+
+public class ClassExtendsAbstractClass extends AbstractClass{
+
+}

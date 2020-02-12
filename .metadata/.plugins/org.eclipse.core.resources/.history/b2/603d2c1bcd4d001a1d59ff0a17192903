@@ -1,0 +1,6 @@
+package lv.dita.repeatJavaClassOOP;
+
+abstract class AbstractClass {
+
+public abstract void abstractMethod();
+}

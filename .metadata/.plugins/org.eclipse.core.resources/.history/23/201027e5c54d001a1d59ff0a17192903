@@ -1,0 +1,14 @@
+package lv.dita.repeatJavaClassOOP;
+
+public class ImplementInterface implements InterfaceClass{
+
+	public static void main(String[] args) {
+		
+	}
+
+	@Override
+	public void sendEmail() {
+		// TODO Auto-generated method stub
+		
+	}
+}

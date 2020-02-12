@@ -1,0 +1,55 @@
+package lv.dita;
+
+import lv.dita.repeatJavaClassOOP.*;
+
+public class TestOOP {
+
+	public static void main(String[] args) {
+		MyClass newObj = new MyClass();
+		MyClass newObj2 = new MyClass();
+		newObj = newObj2;
+		
+		String strObj = "hello";
+		String strObj2 = "hello";
+		System.out.println(newObj.equals(newObj2));
+		System.out.println(strObj.equals(strObj2));
+		
+		MyClassMethods myObjMethod = new MyClassMethods();
+		myObjMethod.myMethod();
+		System.out.println(myObjMethod.myStringMethod());
+		System.out.println(myObjMethod.returnChar(20, 16));
+	
+	MyClassConstructor obj1 = new MyClassConstructor(2000L, "BMW");
+	MyClassConstructor obj2 = new MyClassConstructor(2000L, "Volvo");
+	System.out.println(obj1.getModelName().toLowerCase());
+	System.out.println(obj1.getModelName().equals(obj2.getModelName()));
+	
+	ClassEncaps encapsObj = new ClassEncaps();
+	
+	ImplementInterface interfaceObj = new ImplementInterface();
+	interfaceObj.sendEmail();
+	System.out.println("I have sent " + interfaceObj.emailCount()+ " e-mails");
+	interfaceObj.sendEmail();
+	System.out.println("I have sent " + interfaceObj.emailCount()+ " e-mails");
+	interfaceObj.sendEmail();
+	System.out.println("I have sent " + interfaceObj.emailCount()+ " e-mails");
+	MyEnums status = MyEnums.HIGH;
+	System.out.println("The status of this object is set to " + status);
+	
+	switch(status){
+	case LOW:
+		System.out.println("Please charge");
+		break;
+	case HIGH:
+		System.out.println("No need to charge");
+		break;
+	case MEDIUM:
+		System.out.println("Check in two hours");
+		break;
+	default:
+		System.out.println("I don't know the charging status") 
+	}
+	}
+	
+	
+}

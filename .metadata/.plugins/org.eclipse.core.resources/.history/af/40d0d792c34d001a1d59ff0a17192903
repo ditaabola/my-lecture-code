@@ -1,0 +1,26 @@
+package lv.dita;
+
+import lv.dita.repeatJavaClassOOP.*;
+
+public class TestOOP {
+
+	public static void main(String[] args) {
+		MyClass newObj = new MyClass();
+		MyClass newObj2 = new MyClass();
+		newObj = newObj2;
+		
+		String strObj = "hello";
+		String strObj2 = "hello";
+		System.out.println(newObj.equals(newObj2));
+		System.out.println(strObj.equals(strObj2));
+		
+		MyClassMethods myObjMethod = new MyClassMethods();
+		myObjMethod.myMethod();
+		System.out.println(myObjMethod.myStringMethod());
+		System.out.println(myObjMethod.returnChar(20, 16));
+	
+	MyClassConstructor obj1 = new MyClassConstructor(2000L, "BMW");
+	MyClassConstructor obj2 = new MyClassConstructor(2000L, "Volvo");
+	obj1.getModelName();
+}
+}
